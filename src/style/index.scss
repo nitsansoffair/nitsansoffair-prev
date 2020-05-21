@@ -1,0 +1,32 @@
+$bg-color: #f0ebe4;
+$blue: #2a3594;
+$gray: #dddfe2;
+
+$font: almoni-neue-dl, arial, sans-serif;
+$font-size: 16px;
+
+body {
+  background-color: $bg-color;
+  font-family: $font;
+  font-size: $font-size;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  border: 1px solid $blue;
+  box-shadow: 0 1px 5px 0 $gray;
+  font-size: $font-size;
+
+  &:hover {
+    background-color: $blue;
+    color: white;
+  }
+}
